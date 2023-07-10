@@ -12,12 +12,13 @@ namespace Trash_Sorter
         private string targetPath;
 
 
+
+
         public Main()
         {
             InitializeComponent();
             directory = new DirectoryInfo(Directory.GetCurrentDirectory()); // Получаем текущий рабочий каталог
         }
-
 
         private void browseButton_Click(object sender, EventArgs e)
         {
@@ -30,7 +31,7 @@ namespace Trash_Sorter
                     SortFiles(folderPath);
                     statusBar.ForeColor = System.Drawing.Color.Green;
                     statusBar.Text = "Файлы успешно отсортированы по категориям!";
-                    
+
                 }
             }
         }
