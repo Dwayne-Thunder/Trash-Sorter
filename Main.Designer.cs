@@ -32,8 +32,8 @@
             this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
-            this.statusBar = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.statusBar = new System.Windows.Forms.ToolStripStatusLabel();
             this.label2 = new System.Windows.Forms.Label();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -71,16 +71,16 @@
             this.statusStrip1.TabIndex = 7;
             this.statusStrip1.Text = "statusStrip1";
             // 
-            // statusBar
-            // 
-            this.statusBar.Name = "statusBar";
-            this.statusBar.Size = new System.Drawing.Size(0, 17);
-            // 
             // toolStripStatusLabel1
             // 
             this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
             this.toolStripStatusLabel1.Size = new System.Drawing.Size(43, 17);
             this.toolStripStatusLabel1.Text = "Статус";
+            // 
+            // statusBar
+            // 
+            this.statusBar.Name = "statusBar";
+            this.statusBar.Size = new System.Drawing.Size(0, 17);
             // 
             // label2
             // 
@@ -89,7 +89,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(34, 13);
             this.label2.TabIndex = 8;
-            this.label2.Text = "v. 1.0";
+            this.label2.Text = "v. 1.1";
             // 
             // Main
             // 
